@@ -36,54 +36,54 @@
         </div>
     </header>
     <section class="section-banner">
-        <div class="heading">
+        <div class="section-banner__heading">
             <h1 class="section-banner__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
             <button class="button-heading" data-modal-open>Zamów usługę</button>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
-                    <button class="button-modal" data-modal-close><svg class="X" width="11" height="11">
+                    <button class="button-modal" data-modal-close><svg class="button-modal__X" width="11" height="11">
                         <use href="./images/icons.svg#icon-Vector"></use></svg>
                     </button>
                     <form class="form">
-                        <h2 class="form__tilte">Zostaw swoje dane w formularzu poniżej</h2>
-                        <label class="label" for="name">Imię</label>
-                        <fieldset class="fieldset">
-                            <svg class="name-ico" >
+                        <h2 class="form__title">Zostaw swoje dane w formularzu poniżej</h2>
+                        <label class="form__label" for="name">Imię</label>
+                        <fieldset class="form__fieldset">
+                            <svg class="form__name-ico" >
                                 <use href="./images/icons.svg#icon-Vector-1"></use>
                             </svg>
-                            <input class="input" type="text" id="name" required/> 
+                            <input class="form__input" type="text" id="name" required/> 
                         </fieldset>
-                        <label class="label" for="phone_number">Telefon</label>
-                        <fieldset class="fieldset">
-                            <svg class="name-ico" >
+                        <label class="form__label" for="phone_number">Telefon</label>
+                        <fieldset class="form__fieldset">
+                            <svg class="form__name-ico" >
                                 <use href="./images/icons.svg#icon-Vector-2"></use>
                             </svg>
-                            <input class="input" 
+                            <input class="form__input" 
                             type="tel" 
                             pattern="[0-9]{9}" type="phone_number" required/> 
                         </fieldset>
-                        <label class="label" for="email">Email</label>
-                        <fieldset class="fieldset">
-                            <svg class="name-ico" >
+                        <label class="form__label" for="email">Email</label>
+                        <fieldset class="form__fieldset">
+                            <svg class="form__name-ico" >
                                 <use href="./images/icons.svg#icon-Vector-5"></use>
                             </svg>
-                            <input class="input" type="email" name="email" required/> 
+                            <input class="form__input" type="email" name="email" required/> 
                         </fieldset>
-                        <label class="label" for="coment">Komentarz</label>
-                        <fieldset class="fieldset1">
-                            <textarea type="tekst" class="coment" name="Komentarz" required rows="5" placeholder="Wprowadź tekst"></textarea>
+                        <label class="form__label" for="coment">Komentarz</label>
+                        <fieldset class="form__fieldset-1">
+                            <textarea type="tekst" class="form__coment" name="Komentarz" required rows="5" placeholder="Wprowadź tekst"></textarea>
                         </fieldset>
 
-                        <label class="statute">
-                            <input class="statute-box" type="checkbox" id="legal" required/>
-                            <span class="checkmark">
-                                <svg class="ico-checkpox">
+                        <label class="form__statute">
+                            <input class="form__statute-box" type="checkbox" id="legal" required/>
+                            <span class="form__checkmark">
+                                <svg class="form__ico-checkpox">
                                     <use href="./images/icons.svg#icon-Vector-3"></use></svg>
                             </span>
 
-                           <span class="stat-text"> Oświadczam iż akceptuję <a class="stat-text-web" href="">Regulamin</a> i <a class="stat-text-web" href="">Politykę Prywatności.</a></span>
+                           <span class="form__stat-text"> Oświadczam iż akceptuję <a class="form__stat-text-web" href="">Regulamin</a> i <a class="form__stat-text-web" href="">Politykę Prywatności.</a></span>
                         </label>
-                        <button class="button-stat" type="submit">Wyślij</button>
+                        <button class="form__button-stat" type="submit">Wyślij</button>
 
                     </form>
                 </div>
@@ -139,8 +139,8 @@
         </ul>
     </section>
 
-    <section class="section3">
-        <h2 class="job__title">Czym się zajmujemy</h2>
+    <section class="job">
+        <h2 class="title">Czym się zajmujemy</h2>
         <ul class="job__list3">
             <li>
             <div class="job__whatimg">
@@ -159,41 +159,41 @@
             <li>
                 <div class="job__whatimg">
                 <img src="./images/img3.jpg" alt="img3" width="370" height="294" />
-                <p class="whattext">ROZWIĄZANIA GRAFICZNE</p>
+                <p class="job__whattext">ROZWIĄZANIA GRAFICZNE</p>
             </div>
             </li>
         
         </ul>
     </section>
 
-    <section class="personalbacground ">
-        <div class="contanair4">
+    <section class="personal-bacgraund">
+        <div class="personal">
             <h2 class="title">Nasz zespół</h2>
-            <ul class="per">
+            <ul class="personal__list">
                 <li>
-                    <div class="box2">
+                    <div class="emplyees">
                         <img src="./images/JohnDoe1.jpg" alt="JohnDoe1" width="270" height="260" />
-                        <figcaption class="personal">John Doe
-                            <p class="position">Produkt Designer</p>
+                        <figcaption class="emplyees__personal">John Doe
+                            <p class="emplyees__position">Produkt Designer</p>
 
                             <div>
-                                <ul class="media">
-                                    <li><a class="instagram circle" href="https://www.instagram.com/">
+                                <ul class="socialmedia">
+                                    <li><a class="socialmedia__circle" href="https://www.instagram.com/">
                                             <svg class="instagram" width="20" height="20">
                                                 <use href="./images/icons.svg#icon-instagram"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="twitter circle" href="https://twitter.com/">
-                                            <svg class="twitter" width="20" height="auto">
+                                    <li><a class="socialmedia__circle" href="https://twitter.com/">
+                                            <svg class="socialmedia__twitter" width="20" height="auto">
                                                 <use href="./images/icons.svg#icon-twitter"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="facebook circle" href="https://facebook.com/">
-                                            <svg class="facebook" height="20">
+                                    <li><a class="socialmedia__circle" href="https://facebook.com/">
+                                            <svg class="socialmedia__facebook" height="20">
                                                 <use href="./images/icons.svg#icon-facebook"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="linkedin circle" href="https://linkedin.com/">
+                                    <li><a class="socialmedia__circle" href="https://linkedin.com/">
                                             <svg class="linkedin" width="20" height="20">
                                                 <use href="./images/icons.svg#icon-linkedin"></use>
                                             </svg></a>
@@ -204,29 +204,29 @@
                     </div>
                 </li>
                 <li>
-                    <div class="box2">
+                    <div class="emplyees">
                         <img src="./images/JohnDoe2.jpg" alt="JohnDoe2" width="270" height="260" />
-                        <figcaption class="personal">John Doe
-                            <p class="position">Frontend Developer</p>
+                        <figcaption class="emplyees__personal">John Doe
+                            <p class="emplyees__position">Frontend Developer</p>
                             <div>
-                                <ul class="media">
-                                    <li><a class="instagram circle" href="https://www.instagram.com/">
-                                            <svg class="instagram" width="20" height="20">
+                                <ul class="socialmedia">
+                                    <li><a class="socialmedia__circle" href="https://www.instagram.com/">
+                                            <svg class="socialmedia__instagram" width="20" height="20">
                                                 <use href="./images/icons.svg#icon-instagram"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="twitter circle" href="https://twitter.com/">
-                                            <svg class="twitter" width="20" height="auto">
+                                    <li><a class="socialmedia__circle" href="https://twitter.com/">
+                                            <svg class="socialmedia__twitter" width="20" height="auto">
                                                 <use href="./images/icons.svg#icon-twitter"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="facebook circle" href="https://facebook.com/">
-                                            <svg class="facebook" height="20">
+                                    <li><a class="socialmedia__circle" href="https://facebook.com/">
+                                            <svg class="socialmedia__facebook" height="20">
                                                 <use href="./images/icons.svg#icon-facebook"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="linkedin circle" href="https://linkedin.com/">
-                                            <svg class="linkedin" width="20" height="20">
+                                    <li><a class="socialmedia__circle" href="https://linkedin.com/">
+                                            <svg class="socialmedia__linkedin" width="20" height="20">
                                                 <use href="./images/icons.svg#icon-linkedin"></use>
                                             </svg></a>
                                     </li>
@@ -235,30 +235,30 @@
                         </figcaption>
                     </div>
                 </li>
-                <li class="member">
-                    <div class="box2">
+                <li>
+                    <div class="emplyees">
                         <img src="./images/JohnDoe3.jpg" alt="JohnDoe3" width="270" height="260" />
-                        <figcaption class="personal">John Doe
-                            <p class="position">Marketing</p>
+                        <figcaption class="emplyees__personal">John Doe
+                            <p class="emplyees__position">Marketing</p>
                             <div>
-                                <ul class="media">
-                                    <li><a class="instagram circle" href="https://www.instagram.com/">
-                                            <svg class="instagram" width="20" height="20">
+                                <ul class="socialmedia">
+                                    <li><a class="socialmedia__circle" href="https://www.instagram.com/">
+                                            <svg class="socialmedia__instagram" width="20" height="20">
                                                 <use href="./images/icons.svg#icon-instagram"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="twitter circle" href="https://twitter.com/">
-                                            <svg class="twitter" width="20" height="auto">
+                                    <li><a class="socialmedia__circle" href="https://twitter.com/">
+                                            <svg class="socialmedia__twitter" width="20" height="auto">
                                                 <use href="./images/icons.svg#icon-twitter"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="facebook circle" href="https://facebook.com/">
-                                            <svg class="facebook" height="20">
+                                    <li><a class="socialmedia__circle" href="https://facebook.com/">
+                                            <svg class="socialmedia__facebook" height="20">
                                                 <use href="./images/icons.svg#icon-facebook"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="linkedin circle" href="https://linkedin.com/">
-                                            <svg class="linkedin" width="20" height="20">
+                                    <li><a class="socialmedia__circle" href="https://linkedin.com/">
+                                            <svg class="socialmedia__linkedin" width="20" height="20">
                                                 <use href="./images/icons.svg#icon-linkedin"></use>
                                             </svg></a>
                                     </li>
@@ -267,30 +267,30 @@
                         </figcaption>
                     </div>
                 </li>
-                <li class="member">
-                    <div class="box2">
+                <li>
+                    <div class="emplyees">
                         <img src="./images/JohnDoe4.jpg" alt="JohnDoe4" width="270" height="260" />
-                        <figcaption class="personal">John Doe
-                            <p class="position">UI Designer</p>
+                        <figcaption class="emplyees__personal">John Doe
+                            <p class="emplyees__position">UI Designer</p>
                             <div>
-                                <ul class="media">
-                                    <li><a class="instagram circle" href="https://www.instagram.com/">
-                                            <svg class="instagram" width="20" height="20">
+                                <ul class="socialmedia">
+                                    <li><a class="socialmedia__circle" href="https://www.instagram.com/">
+                                            <svg class="socialmedia__instagram" width="20" height="20">
                                                 <use href="./images/icons.svg#icon-instagram"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="twitter circle" href="https://twitter.com/">
-                                            <svg class="twitter" width="20" height="auto">
+                                    <li><a class="socialmedia__circle" href="https://twitter.com/">
+                                            <svg class="socialmedia__twitter" width="20" height="auto">
                                                 <use href="./images/icons.svg#icon-twitter"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="facebook circle" href="https://facebook.com/">
-                                            <svg class="facebook" height="20">
+                                    <li><a class="socialmedia__circle" href="https://facebook.com/">
+                                            <svg class="socialmedia__facebook" height="20">
                                                 <use href="./images/icons.svg#icon-facebook"></use>
                                             </svg></a>
                                     </li>
-                                    <li><a class="linkedin circle" href="https://linkedin.com/">
-                                            <svg class="linkedin" width="20" height="20">
+                                    <li><a class="socialmedia__circle" href="https://linkedin.com/">
+                                            <svg class="socialmedia__linkedin" width="20" height="20">
                                                 <use href="./images/icons.svg#icon-linkedin"></use>
                                             </svg></a>
                                     </li>
@@ -304,34 +304,34 @@
     </section>
     <section class="customers">
         <h2 class="title">Nasi klienci</h2>
-        <ul class="customersico">
-            <li><a class="logo01 boxicon2" href="">
-                    <svg class="logo01" width="106" height="auto">
+        <ul class="customers__list">
+            <li><a class="customers__icon" href="">
+                    <svg class="customers__logo01" width="106" height="auto">
                         <use href="./images/icons.svg#icon-logo1"></use>
                     </svg></a>
             </li>
-            <li><a class="logo02 boxicon2" href="">
-                    <svg class="logo02" width="106" height="auto">
+            <li><a class="customers__icon" href="">
+                    <svg class="customers__logo02" width="106" height="auto">
                         <use href="./images/icons.svg#icon-logo2"></use>
                     </svg></a>
             </li>
-            <li><a class="logo03 boxicon2" href="">
-                    <svg class="logo03" width="106" height="auto">
+            <li><a class="customers__icon" href="">
+                    <svg class="customers__logo03" width="106" height="auto">
                         <use href="./images/icons.svg#icon-logo3"></use>
                     </svg></a>
             </li>
-            <li><a class="logo04 boxicon2" href="">
-                    <svg class="logo4" width="106" height="auto">
+            <li><a class="customers__icon" href="">
+                    <svg class="customers__logo04" width="106" height="auto">
                         <use href="./images/icons.svg#icon-logo4"></use>
                     </svg></a>
             </li>
-            <li><a class="logo5 boxicon2" href="">
-                    <svg class="logo5" width="106" height="auto">
+            <li><a class="customers__icon" href="">
+                    <svg class="customers__logo05" width="106" height="auto">
                         <use href="./images/icons.svg#icon-logo5"></use>
                     </svg></a>
             </li>
-            <li><a class="logo6 boxicon2" href="">
-                    <svg class="logo6" width="106" height="auto">
+            <li><a class="customers__icon" href="">
+                    <svg class="customers__logo065" width="106" height="auto">
                         <use href="./images/icons.svg#icon-logo6"></use>
                     </svg></a>
             </li>
@@ -339,57 +339,58 @@
 
 
     </section>
-    <footer class="footercon">
-        <div class="footerbacground">
-            <div class="container06">
-                <div class="logotype">
+    <footer class="footer">
+        <div class="footer__bacground">
+            <div class="footer__container">
+                <div>
                     <span><a class="footer__logo-first" href="">Web</a></span>
                     <span><a class="footer__logo-next" href="">Studio</a></span>
                 </div>
-                <address class="address">
-                    <p class="address1">m. Warszawa, Aleje Jerozolimskie 21</p>
-                    <p><a class="footermail" href="mailto:info@example.com">info@example.com</a></p>
-                    <p><a class="footertel" href="tel:+48111111111">+48 111 111 111</a></p>
+                <address class="postal-details">
+                    <p class="postal-details__address">m. Warszawa, Aleje Jerozolimskie 21</p>
+                    <p><a class="postal-details__mail" href="mailto:info@example.com">info@example.com</a></p>
+                    <p><a class="postal-details__tel" href="tel:+48111111111">+48 111 111 111</a></p>
                 </address>
             </div>
-            <div class="join1">
-                <p class="join2">DOŁĄCZ DO NAS</p>
-                <ul class="join">
-                    <li><a class="instagram2 circle2" href="https://www.instagram.com/">
-                            <svg class="instagram2" width="20" height="20">
+            <div class="join">
+                <p class="join__title">DOŁĄCZ DO NAS</p>
+                <ul class="socialmedia-footer">
+                    <li><a class="socialmedia-footer__circle2" href="https://www.instagram.com/">
+                            <svg class="socialmedia-footer__instagram2" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg></a>
                     </li>
-                    <li><a class="twitter2 circle2" href="https://twitter.com/">
-                            <svg class="twitter2" width="20" height="auto">
+                    <li><a class="socialmedia-footer__circle2" href="https://twitter.com/">
+                            <svg class="socialmedia-footer__twitter2" width="20" height="auto">
                                 <use href="./images/icons.svg#icon-twitter"></use>
                             </svg></a>
                     </li>
-                    <li><a class="facebook2 circle2" href="https://facebook.com/">
-                            <svg class="facebook2" height="20">
+                    <li><a class="socialmedia-footer__circle2" href="https://facebook.com/">
+                            <svg class="socialmedia-footer__facebook2" height="20">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg></a>
                     </li>
-                    <li><a class="linkedin2 circle2" href="https://linkedin.com/">
-                            <svg class="linkedin2" width="20" height="20">
+                    <li><a class="socialmedia-footer__circle2" href="https://linkedin.com/">
+                            <svg class="socialmedia-footer__linkedin2" width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin"></use>
                             </svg></a>
                     </li>
                 </ul>
             </div>
-            <div class="join4">
-                <form class="form-2">
+            <div class="newsletter">
+                <form>
                 <label for="email">IZAPISZ SIĘ DO NEWSLETTERA</label>
             
-                <fieldset class="fieldset-footer">
-                    <input class="input3" type="email" required placeholder="E-mail" id="email"/>
+                <fieldset class="newsletter__fieldset-footer">
+                    <input class="newsletter__input-footer" type="email" required placeholder="E-mail" id="email"/>
                 </fieldset>
+            </form>
             </div>
-            <div class="join5">
-                <button class="button-stat" type="submit"><svg class="linkedin2" width="130" height="30">
-                    <use href="./images/icons.svg#icon-Group-1"></use></svg>
-
-                    </button>
+            <div class="newsletter-button">
+                <button class="newsletter-button__button-send" type="submit"><svg width="130" height="30">
+                    <use href="./images/icons.svg#icon-Group-1"></use>
+                </svg>
+            </button>
         </div>
 
             

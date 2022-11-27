@@ -6,20 +6,23 @@
     padding: 0;
     display: flex;
     align-items: center;
-}
-.tel__address:hover {
-    color: var(--blue);
-    --color3: var(--blue);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.tel__telephonico {
+  
+    &:hover {
+      color: var(--blue);
+      --color3:var(--blue);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+  
+  .tel__telephonico {
     display: flex;
     align-items: center;
     margin-right: 10px;
-}
-.tel__telephonico:hover {
-    --color3: var(--blue);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  
+    &:hover {
+      --color3:var(--blue);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }

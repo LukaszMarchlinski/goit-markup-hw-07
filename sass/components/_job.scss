@@ -1,4 +1,4 @@
-.section3 {
+.job {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,19 +7,9 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-}
-.job__title {
-    color: var(--dark);
-    font-size: 36px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    display: flex;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.job__list3 {
+  }
+  
+  .job__list3 {
     list-style-type: none;
     padding: 0;
     max-width: 1200px;
@@ -29,14 +19,15 @@
     display: flex;
     align-items: center;
     margin-top: 50px;
-}
-.job__whatimg {
+  }
+  
+  .job__whatimg {
     position: relative;
-}
-.job__whattext {
+  }
+  
+  .job__whattext {
     position: absolute;
     bottom: 0;
-    
     margin: 0 auto;
     justify-content: center;
     display: flex;
@@ -48,7 +39,8 @@
     color: var(--white);
     letter-spacing: 0.03em;
     padding: 0px;
-}
-img {
+  }
+  
+  img {
     display: block;
-}
+  }

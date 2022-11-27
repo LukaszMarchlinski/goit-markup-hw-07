@@ -4,8 +4,9 @@
     justify-content: space-between;
     padding-top: 94px;
     flex-direction: column;
-}
-.section2__list2 {
+  }
+  
+  .section2__list2 {
     align-items: center;
     list-style-type: none;
     display: flex;
@@ -15,14 +16,16 @@
     padding: 0;
     margin: 0 auto;
     gap: 30px;
-}
-.section2__subtitle {
+  }
+  
+  .section2__subtitle {
     font-weight: 700;
     list-style-type: none;
-}
-.section2__text1 {
+  }
+  
+  .section2__text1 {
     color: var(--gray);
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
-}
+  }
